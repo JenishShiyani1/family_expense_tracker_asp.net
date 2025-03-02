@@ -1,0 +1,50 @@
+﻿@model Family_Expense_Tracker.Models.AdminRegister
+
+@{
+    Layout = "~/Views/Shared/_Layout_Register.cshtml";
+}
+
+<main>
+    <div class="container-scroller">
+        <div class="container-fluid page-body-wrapper full-page-wrapper">
+            <div class="row w-100 m-0">
+                <div class="content-wrapper full-page-wrapper d-flex align-items-center auth login-bg">
+                    <div class="card col-lg-6 mx-auto">
+                        <div class="card-body px-5 py-5">
+                            <h3 class="card-title text-left mb-3">Admin Register</h3>
+                            <form asp-action="AdminRegister" asp-controller="User" method="post">
+                                <div class="form-group">
+                                    <label asp-for="Name"></label>
+                                    <input asp-for="Name" class="form-control p_input" placeholder="Enter your name">
+                                    <span asp-validation-for="Name" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Email"></label>
+                                    <input asp-for="Email" class="form-control p_input" placeholder="Enter your email">
+                                    <span asp-validation-for="Email" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Password"></label>
+                                    <input asp-for="Password" type="password" class="form-control p_input" placeholder="Enter your password">
+                                    <span asp-validation-for="Password" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="GroupName"></label>
+                                    <input asp-for="GroupName" class="form-control p_input" placeholder="Enter group name">
+                                    <span asp-validation-for="GroupName" class="text-danger"></span>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary btn-block enter-btn">Register</button>
+                                </div>
+                                <p class="sign-up text-center">Already have an Account?<a asp-controller="User" asp-action="UserLogin"> Sign In</a></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- content-wrapper ends -->
+            </div>
+            <!-- row ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+</main>

@@ -1,0 +1,59 @@
+﻿@model Family_Expense_Tracker.Models.UserLoginModel
+
+@{
+    Layout = "~/Views/Shared/_Layout_Login.cshtml";
+}
+
+<main>
+    <div class="container-scroller">
+        <div class="container-fluid page-body-wrapper full-page-wrapper">
+            <div class="row w-100 m-0">
+                <div class="content-wrapper full-page-wrapper d-flex align-items-center auth login-bg">
+                    <div class="card col-lg-4 mx-auto">
+                        <div class="card-body px-5 py-5">
+                            <h3 class="card-title text-left mb-3">Login</h3>
+                            <form asp-action="UserLogin" asp-controller="User" method="post">
+                                <div class="form-group">
+                                    <label asp-for="Email"></label>
+                                    <input asp-for="Email" class="form-control p_input" placeholder="Enter your email">
+                                    <span asp-validation-for="Email" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Password"></label>
+                                    <input asp-for="Password" type="password" class="form-control p_input" placeholder="Enter your password">
+                                    <span asp-validation-for="Password" class="text-danger"></span>
+                                </div>
+                                <div class="form-group d-flex">
+                                    <div class="form-check mr-3">
+                                        <input asp-for="Role" type="radio" value="Admin" class="form-check-input" id="roleAdmin">
+                                        <label for="roleAdmin" class="form-check-label">Admin</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input asp-for="Role" type="radio" value="Member" class="form-check-input" id="roleMember">
+                                        <label for="roleMember" class="form-check-label">Member</label>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="Role" class="text-danger"></span>
+
+                                @if (TempData["ErrorMessage"] != null)
+                                {
+                                    <div class="text-danger text-center mb-1 mt-0">
+                                        @TempData["ErrorMessage"]
+                                    </div>
+                                }
+
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary btn-block enter-btn">Login</button>
+                                </div>
+                                <p class="sign-up">Don't have an Account?<a asp-controller="User" asp-action="UserRegister"> Sign Up</a></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- content-wrapper ends -->
+            </div>
+            <!-- row ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+</main>

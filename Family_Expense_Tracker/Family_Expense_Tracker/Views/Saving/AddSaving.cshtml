@@ -1,0 +1,77 @@
+﻿@model Family_Expense_Tracker.Models.SavingModel
+
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="text-light fw-bold text-center">Saving Add/Edit</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="">
+                            <div class="card">
+                                <div class="card-body">
+                                    <form class="forms-sample" method="post" asp-controller="Saving" asp-action="Save">
+                                        @Html.HiddenFor(x => x.SavingID)
+
+                                        <!-- Saving Name Field -->
+                                        <div class="form-group row">
+                                            <label class="col-sm-3 col-form-label">Saving Name<span class="text-danger">*</span></label>
+                                            <div class="col-md-9">
+                                                <input type="text"
+                                                       id="SavingName"
+                                                       name="SavingName"
+                                                       class="form-control"
+                                                       asp-for="SavingName"
+                                                       placeholder="Enter Saving Name" />
+                                                <span asp-validation-for="SavingName" class="text-danger"></span>
+                                            </div>
+                                        </div>
+
+                                        <!-- Target Amount Field -->
+                                        <div class="form-group row">
+                                            <label class="col-sm-3 col-form-label">Target Amount<span class="text-danger">*</span></label>
+                                            <div class="col-md-9">
+                                                <input type="number"
+                                                       id="TargetedAmount"
+                                                       name="TargetedAmount"
+                                                       class="form-control"
+                                                       asp-for="TargetedAmount"
+                                                       placeholder="Enter Target Amount"
+                                                       step="0.01" />
+                                                <span asp-validation-for="TargetedAmount" class="text-danger"></span>
+                                            </div>
+                                        </div>
+
+                                        <!-- Deadline Field -->
+                                        <div class="form-group row">
+                                            <label class="col-sm-3 col-form-label">Deadline<span class="text-danger">*</span></label>
+                                            <div class="col-md-9">
+                                                <input type="date"
+                                                       id="Deadline"
+                                                       name="Deadline"
+                                                       class="form-control"
+                                                       asp-for="DeadLine"
+                                                       min="@DateTime.Now.ToString("yyyy-MM-dd")" />
+                                                <span asp-validation-for="DeadLine" class="text-danger"></span>
+                                            </div>
+                                        </div>
+
+                                        <!-- Submit and Cancel Buttons -->
+                                        <div class="form-group row">
+                                            <div class="col-sm-9 offset-sm-3">
+                                                <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                                                <a asp-controller="Saving" asp-action="SavingList" class="btn btn-dark">Cancel</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

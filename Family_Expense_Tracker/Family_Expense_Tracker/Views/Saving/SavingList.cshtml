@@ -1,0 +1,187 @@
+﻿@using System.Globalization
+@model IEnumerable<SavingModel>
+
+@if (TempData["UpdateSuccess"] != null)
+{
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            showSuccessMessage("@TempData["UpdateSuccess"]");
+        });
+    </script>
+}
+
+@if (TempData["AddSuccess"] != null)
+{
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            showSuccessMessage("@TempData["AddSuccess"]");
+        });
+    </script>
+}
+
+@if (TempData["UpdateError"] != null)
+{
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            showErrorMessage("@TempData["UpdateError"]");
+        });
+    </script>
+}
+
+@if (TempData["AddError"] != null)
+{
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            showErrorMessage("@TempData["AddError"]");
+        });
+    </script>
+}
+
+
+@if (TempData["DeleteSuccess"] != null)
+{
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            showSuccessMessage("@TempData["DeleteSuccess"]");
+        });
+    </script>
+}
+
+@if (TempData["DeleteError"] != null)
+{
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            showErrorMessage("@TempData["DeleteError"]");
+        });
+    </script>
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h3 class="text-light fw-bold mb-0">Saving List</h3>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        @if(Model.Any())
+        {
+            <a asp-controller="Saving" asp-action="ExportToExcelUserSaving" class="btn btn-success mr-3">
+                <i class="bi bi-file-earmark-excel-fill me-1"></i> Export to Excel
+            </a>
+        }
+        <a asp-controller="Saving" asp-action="AddSaving" class="btn btn-primary me-2">
+            <i class="bi bi-plus-lg me-1"></i> Add Saving
+        </a>
+    </div>
+</div>
+
+<div class="mb-3">
+    <input type="text" class="form-control" id="savingSearch" placeholder="Search savings">
+</div>
+
+<div class="table-responsive">
+    <table class="table table-striped align-middle shadow-sm rounded">
+    <tr class="table-dark">
+        <th>#</th>
+        <th>Saving Name</th>
+        <th>DeadLine</th>
+        <th class="text-right">Targeted Amount</th>
+            <th class="text-right">Saved Amount</th>
+        <th>Status</th>
+        <th>Actions</th>
+    </tr>
+
+    @if (Model == null || !Model.Any())
+    {
+        <tr>
+            <td colspan="7" class="text-center text-danger">
+                <h6>There is no saving for this user.</h6>
+            </td>
+        </tr>
+    }
+    else {
+        int index = 1;
+        @foreach (var saving in Model)
+        {
+            <tbody id="savingTable">
+                <tr>
+                    <td>@index</td>
+                    <td>@saving.SavingName</td>
+                    <td>@saving.DeadLine.ToString("dd MMM yyyy")</td>
+                        <td class="text-success fw-bold text-right">@saving.TargetedAmount.ToString("C", new CultureInfo("en-IN"))</td>
+                        <td class="text-primary fw-bold text-right">@saving.SavedAmount.ToString("C", new CultureInfo("en-IN"))</td>
+                    @if (saving.Status == "Completed")
+                    {
+                        <td>
+                            <div class="badge badge-outline-success">Completed</div>
+                        </td>
+                    }
+                    @if (saving.Status == "Missed")
+                    {
+                        <td>
+                            <div class="badge badge-outline-danger">Missed</div>
+                        </td>
+                    }
+                    @if (saving.Status == "Pending")
+                    {
+                        <td>
+                            <div class="badge badge-outline-warning">Pending</div>
+                        </td>
+                    }
+                        <td>
+                                @if (saving.Status == "Missed" || saving.Status == "Completed")
+                                {
+                                <button class="btn btn-primary" onclick="addSavedAmount(@saving.SavingID)" disabled>Add Amount</button>
+                                }
+                                else
+                                {
+                                <button class="btn btn-primary" onclick="addSavedAmount(@saving.SavingID)">Add Amount</button>
+                                }
+                            <a class="btn btn-success" asp-controller="Saving" asp-action="AddSaving" asp-route-SavingID="@saving.SavingID">Edit</a>
+                            <a class="btn btn-danger" asp-controller="Saving" asp-action="Delete" asp-route-SavingID="@saving.SavingID" onclick="return confirm('Are you sure you want to delete this Saving?');">Delete</a>
+
+                        </td>
+                </tr>
+            </tbody>
+            index++;
+        }
+    }
+</table>
+</div>
+
+<script>
+    function addSavedAmount(savingID) {
+        Swal.fire({
+            title: 'Add Saved Amount',
+            html: '<input id="SavedAmount" class="form-control bg-light border border-success" placeholder="Enter Saved Amount">',
+            width: '400px',
+            focusConfirm: false,
+            showCancelButton: true,
+            confirmButtonText: 'Submit',
+            preConfirm: () => {
+                const savedAmount = document.getElementById('SavedAmount').value;
+
+                if (!savedAmount || isNaN(savedAmount)) {
+                    Swal.showValidationMessage('Please enter a valid amount');
+                    return false;
+                }
+
+                // Redirect to the server-side action with the inputs
+                window.location.href = `/Saving/UpdateSavedAmount?savingID=${savingID}&savedAmount=${savedAmount}&flag=${true}`;
+            }
+        });
+    }
+</script>
+
+@section Scripts {
+    <!-- Include jQuery if not already included -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Search functionality for filtering table rows
+            $("#savingSearch").on("keyup", function () {
+                var value = $(this).val().toLowerCase().trim(); // Get search input
+                $("#savingTable tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1); // Toggle rows based on match
+                });
+            });
+        });
+    </script>
+}

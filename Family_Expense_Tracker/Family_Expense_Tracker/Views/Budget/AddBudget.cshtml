@@ -1,0 +1,98 @@
+﻿@model Family_Expense_Tracker.Models.BudgetModel
+
+<main>
+    @if (TempData["BudgetExists"] != null)
+    {
+        <script>
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Budget already exists!',
+                confirmButtonText: 'OK'
+            });
+        </script>
+    }
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="text-light fw-bold text-center">Budget Add/Edit</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="">
+                            <div class="card">
+                                <div class="card-body">
+                                    <form class="forms-sample" method="post" asp-controller="Budget" asp-action="Save">
+                                        @Html.HiddenFor(x => x.BudgetID)
+
+                                        <!-- Category Dropdown -->
+                                        <div class="form-group row">
+                                            <label class="col-sm-3 col-form-label">Category<span class="text-danger">*</span></label>
+                                            <div class="col-md-9">
+                                                <select id="CategoryID" name="CategoryID" asp-for="CategoryID" class="form-control text-light">
+                                                    <option value="" selected>Select a category</option>
+                                                    @if (ViewBag.CategoryList != null && ViewBag.CategoryList.Count > 0)
+                                                    {
+                                                        foreach (var category in ViewBag.CategoryList)
+                                                        {
+                                                            <option value="@category.CategoryID">
+                                                                @category.CategoryName
+                                                            </option>
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        <option value="" disabled>No categories available</option>
+                                                    }
+                                                </select>
+                                                <span asp-validation-for="CategoryID" class="text-danger"></span>
+                                            </div>
+                                        </div>
+
+                                        <!-- Amount Field -->
+                                        <div class="form-group row">
+                                            <label class="col-sm-3 col-form-label">Total Budget<span class="text-danger">*</span></label>
+                                            <div class="col-md-9">
+                                                <input type="number"
+                                                       id="TotalBudget"
+                                                       name="TotalBudget"
+                                                       class="form-control"
+                                                       asp-for="TotalBudget"
+                                                       placeholder="Enter Total Budget"
+                                                       step="0.01" />
+                                                <span asp-validation-for="TotalBudget" class="text-danger"></span>
+                                            </div>
+                                        </div>
+
+                                        <!-- Income Date Field -->
+                                        <div class="form-group row">
+                                            <label class="col-sm-3 col-form-label">End Date<span class="text-danger">*</span></label>
+                                            <div class="col-md-9">
+                                                <input type="date"
+                                                       id="EndDate"
+                                                       name="EndDate"
+                                                       class="form-control"
+                                                       asp-for="EndDate"
+                                                       min="@DateTime.Now.ToString("yyyy-MM-dd")" />
+                                                <span asp-validation-for="EndDate" class="text-danger"></span>
+                                            </div>
+                                        </div>
+
+                                        <!-- Submit and Cancel Buttons -->
+                                        <div class="form-group row">
+                                            <div class="col-sm-9 offset-sm-3">
+                                                <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                                                <a asp-controller="Budget" asp-action="BudgetList" class="btn btn-dark">Cancel</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

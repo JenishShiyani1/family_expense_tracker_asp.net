@@ -1,0 +1,143 @@
+﻿@model Family_Expense_Tracker.Models.ExpenseModel
+
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="text-light fw-bold text-center">Expense Add/Edit</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="">
+                            <div class="card">
+                                <div class="card-body">
+                                    <form id="expenseForm" class="forms-sample" method="post" asp-controller="Expense" asp-action="Save">
+
+                                        <input type="hidden" id="IsConfirmed" name="IsConfirmed" value="false" />
+
+                                        @Html.HiddenFor(x => x.ExpenseID , new {id = "ExpenseID"})
+
+                                        <!-- Category Dropdown -->
+                                        <div class="form-group row">
+                                            <label class="col-sm-3 col-form-label">Category<span class="text-danger">*</span></label>
+                                            <div class="col-md-9">
+                                                <select id="CategoryID" name="CategoryID" asp-for="CategoryID" class="form-control text-light">
+                                                    <option value="" selected>Select a category</option>
+                                                    @if (ViewBag.CategoryList != null && ViewBag.CategoryList.Count > 0)
+                                                    {
+                                                        foreach (var category in ViewBag.CategoryList)
+                                                        {
+                                                            <option value="@category.CategoryID">
+                                                                @category.CategoryName
+                                                            </option>
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        <option value="" disabled>No categories available</option>
+                                                    }
+                                                </select>
+                                                <span asp-validation-for="CategoryID" class="text-danger"></span>
+                                            </div>
+                                        </div>
+
+                                        <!-- Amount Field -->
+                                        <div class="form-group row">
+                                            <label class="col-sm-3 col-form-label">Amount<span class="text-danger">*</span></label>
+                                            <div class="col-md-9">
+                                                <input type="number"
+                                                       id="Amount"
+                                                       name="Amount"
+                                                       class="form-control"
+                                                       asp-for="Amount"
+                                                       placeholder="Enter Expense Amount"
+                                                       step="0.01" />
+                                                <span asp-validation-for="Amount" class="text-danger"></span>
+                                            </div>
+                                        </div>
+
+                                        <!-- Income Date Field -->
+                                        <div class="form-group row">
+                                            <label class="col-sm-3 col-form-label">Expense Date<span class="text-danger">*</span></label>
+                                            <div class="col-md-9">
+                                                <input type="date"
+                                                       id="ExpenseDate"
+                                                       name="ExpenseDate"
+                                                       class="form-control"
+                                                       asp-for="ExpenseDate" />
+                                                <span asp-validation-for="ExpenseDate" class="text-danger"></span>
+                                            </div>
+                                        </div>
+
+                                        <!-- Notes Field -->
+                                        <div class="form-group row">
+                                            <label class="col-sm-3 col-form-label">Notes<span class="text-danger">*</span></label>
+                                            <div class="col-md-9">
+                                                <textarea id="Notes"
+                                                          name="Notes"
+                                                          class="form-control"
+                                                          asp-for="Notes"
+                                                          placeholder="Enter any notes here"
+                                                          rows="3"></textarea>
+                                                <span asp-validation-for="Notes" class="text-danger"></span>
+                                            </div>
+                                        </div>
+
+                                        <!-- Submit and Cancel Buttons -->
+                                        <div class="form-group row">
+                                            <div class="col-sm-9 offset-sm-3">
+                                                <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                                                <a asp-controller="Expense" asp-action="ExpenseList" class="btn btn-dark">Cancel</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+@section Scripts 
+{
+    <!-- Include SweetAlert Library -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    @if (TempData["BudgetExceed"]?.ToString() == "true")
+    {
+        <script>
+            var isUpdate = document.getElementById('ExpenseID').value > 0;
+            var messageText = isUpdate
+                ? 'You have no more budget for this expense. Are you sure you want to update the expense?'
+                : 'You have no more budget for this expense. Are you sure you want to add the expense?';
+
+            var buttonText = isUpdate
+                ? 'Yes, Update Expense!'
+                : 'Yes, Add Expense';
+
+            Swal.fire({
+                text: messageText,
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonText: buttonText,
+                cancelButtonText: 'No, Cancel',
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                focusConfirm: false
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    document.getElementById('IsConfirmed').value = 'true';
+                    document.getElementById('expenseForm').submit();
+                } else {
+                    // Redirect to ExpenseList page
+                    window.location.href = '@Url.Action("ExpenseList", "Expense")';
+                }
+            });
+        </script>
+    }
+}
+

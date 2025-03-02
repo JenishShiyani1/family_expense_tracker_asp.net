@@ -1,0 +1,598 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\data\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\data\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\models\\savingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\models\\savingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\data\\savingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\data\\savingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\controllers\\savingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\controllers\\savingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\controllers\\incomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\controllers\\incomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\controllers\\budgetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\controllers\\budgetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\data\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\data\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\models\\dashboardcountsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\models\\dashboardcountsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\data\\budgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\data\\budgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\data\\incomerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\data\\incomerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\bal\\checkaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\bal\\checkaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\validation\\expensevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\validation\\expensevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\data\\expenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\data\\expenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\models\\budgetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\models\\budgetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\models\\expensemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\models\\expensemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\models\\incomemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\models\\incomemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\models\\membermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\models\\membermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\models\\memberadminmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\models\\memberadminmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\data\\analyticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\data\\analyticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\validation\\budgetvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\validation\\budgetvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\validation\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\validation\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\validation\\categoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\validation\\categoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\validation\\incomevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\validation\\incomevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\validation\\savingvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\validation\\savingvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|d:\\6th semester\\adv dot net\\family expense tracker\\family expense tracker\\models\\analyticsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E69B16-6DB7-4287-B83E-0F0794B86582}|Family Expense Tracker\\Family Expense Tracker.csproj|solutionrelative:family expense tracker\\models\\analyticsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAAAEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T18:12:08.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Data\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Data\\CategoryRepository.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Data\\CategoryRepository.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Data\\CategoryRepository.cs",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAiwLQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T16:45:21.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAcwKAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T16:52:24.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Program.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Program.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Program.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Program.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAADAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T17:45:19.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\appsettings.json",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\appsettings.json",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\appsettings.json",
+              "RelativeToolTip": "Family Expense Tracker\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-29T17:50:50.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Models\\UserModel.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Models\\UserModel.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Models\\UserModel.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA1wB4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T17:56:11.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Data\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Data\\UserRepository.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Data\\UserRepository.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Data\\UserRepository.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAkwEkAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T18:03:34.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SavingModel.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Models\\SavingModel.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Models\\SavingModel.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Models\\SavingModel.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Models\\SavingModel.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T10:30:53.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SavingRepository.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Data\\SavingRepository.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Data\\SavingRepository.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Data\\SavingRepository.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Data\\SavingRepository.cs",
+              "ViewState": "AQIAAPYAAAAAAAAAAAAAAAIBAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T10:36:32.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SavingController.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Controllers\\SavingController.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Controllers\\SavingController.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Controllers\\SavingController.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Controllers\\SavingController.cs",
+              "ViewState": "AQIAANYAAAAAAAAAAAAswOEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T10:36:57.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ExpenseController.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Controllers\\ExpenseController.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Controllers\\ExpenseController.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Controllers\\ExpenseController.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Controllers\\ExpenseController.cs",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAuwJcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T12:31:38.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAowCwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T16:55:40.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IncomeController.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Controllers\\IncomeController.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Controllers\\IncomeController.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Controllers\\IncomeController.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Controllers\\IncomeController.cs",
+              "ViewState": "AQIAAKcAAAAAAAAAAAAuwJgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T08:09:46.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BudgetController.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Controllers\\BudgetController.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Controllers\\BudgetController.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Controllers\\BudgetController.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Controllers\\BudgetController.cs",
+              "ViewState": "AQIAALQAAAAAAAAAAAAuwMcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T16:29:31.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Family Expense Tracker\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-12T16:21:27.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AnalyticsController.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Controllers\\AnalyticsController.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Controllers\\AnalyticsController.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Controllers\\AnalyticsController.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Controllers\\AnalyticsController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAwwCYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:12:32.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DashboardCountsModel.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Models\\DashboardCountsModel.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Models\\DashboardCountsModel.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Models\\DashboardCountsModel.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Models\\DashboardCountsModel.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAcwGcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T16:48:08.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DashboardRepository.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Data\\DashboardRepository.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Data\\DashboardRepository.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Data\\DashboardRepository.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Data\\DashboardRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T16:56:24.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BudgetRepository.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Data\\BudgetRepository.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Data\\BudgetRepository.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Data\\BudgetRepository.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Data\\BudgetRepository.cs",
+              "ViewState": "AQIAANMAAAAAAAAAAIBJwN4AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T16:29:01.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IncomeRepository.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Data\\IncomeRepository.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Data\\IncomeRepository.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Data\\IncomeRepository.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Data\\IncomeRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAvwCQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T08:09:26.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "checkAccess.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\BAL\\checkAccess.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\BAL\\checkAccess.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\BAL\\checkAccess.cs",
+              "RelativeToolTip": "Family Expense Tracker\\BAL\\checkAccess.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowA8AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T12:58:47.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ExpenseRepository.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Data\\ExpenseRepository.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Data\\ExpenseRepository.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Data\\ExpenseRepository.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Data\\ExpenseRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADgvyMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T12:30:56.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ExpenseValidator.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Validation\\ExpenseValidator.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Validation\\ExpenseValidator.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Validation\\ExpenseValidator.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Validation\\ExpenseValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBYAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T15:30:23.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IncomeModel.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Models\\IncomeModel.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Models\\IncomeModel.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Models\\IncomeModel.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Models\\IncomeModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T08:06:02.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ExpenseModel.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Models\\ExpenseModel.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Models\\ExpenseModel.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Models\\ExpenseModel.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Models\\ExpenseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T12:12:51.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CategoryModel.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Models\\CategoryModel.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Models\\CategoryModel.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Models\\CategoryModel.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Models\\CategoryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T16:43:19.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BudgetModel.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Models\\BudgetModel.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Models\\BudgetModel.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Models\\BudgetModel.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Models\\BudgetModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T16:23:02.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MemberAdminModel.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Models\\MemberAdminModel.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Models\\MemberAdminModel.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Models\\MemberAdminModel.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Models\\MemberAdminModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T17:32:53.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MemberModel.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Models\\MemberModel.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Models\\MemberModel.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Models\\MemberModel.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Models\\MemberModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T16:59:47.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AnalyticsRepository.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Data\\AnalyticsRepository.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Data\\AnalyticsRepository.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Data\\AnalyticsRepository.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Data\\AnalyticsRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwDgAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:07:14.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BudgetValidator.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Validation\\BudgetValidator.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Validation\\BudgetValidator.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Validation\\BudgetValidator.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Validation\\BudgetValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T15:51:08.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserValidator.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Validation\\UserValidator.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Validation\\UserValidator.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Validation\\UserValidator.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Validation\\UserValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:30:32.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CategoryValidator.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Validation\\CategoryValidator.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Validation\\CategoryValidator.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Validation\\CategoryValidator.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Validation\\CategoryValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T15:36:12.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IncomeValidator.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Validation\\IncomeValidator.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Validation\\IncomeValidator.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Validation\\IncomeValidator.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Validation\\IncomeValidator.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAswBcAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T15:25:28.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SavingValidator.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Validation\\SavingValidator.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Validation\\SavingValidator.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Validation\\SavingValidator.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Validation\\SavingValidator.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T13:26:07.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AnalyticsModel.cs",
+              "DocumentMoniker": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Models\\AnalyticsModel.cs",
+              "RelativeDocumentMoniker": "Family Expense Tracker\\Models\\AnalyticsModel.cs",
+              "ToolTip": "D:\\6th Semester\\Adv Dot Net\\Family Expense Tracker\\Family Expense Tracker\\Models\\AnalyticsModel.cs",
+              "RelativeToolTip": "Family Expense Tracker\\Models\\AnalyticsModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:05:50.5Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

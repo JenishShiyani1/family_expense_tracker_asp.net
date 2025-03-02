@@ -1,0 +1,131 @@
+﻿@using System.Globalization
+@model IEnumerable<IncomeModel>
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h3 class="text-light fw-bold mb-0">GroupWise Income</h3>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        @if(Model.Any())
+        {
+            <a asp-controller="Income" asp-action="ExportToExcelGroupIncome" class="btn btn-success">
+                <i class="bi bi-file-earmark-excel-fill"></i> Export to Excel
+            </a>
+        }
+    </div>
+</div>
+
+<div class="row mb-3">
+    <div class="col-md-4">
+        <input type="date" id="startDate" class="form-control">
+    </div>
+    <div class="col-md-4">
+        <input type="date" id="endDate" class="form-control">
+    </div>
+    <div class="col-md-4 d-flex align-items-end">
+        <button id="filterBtn" class="btn btn-primary mr-3 w-100">Filter</button>
+        <button id="clearFilterBtn" class="btn btn-secondary w-100">Clear Filter</button>
+    </div>
+</div>
+
+<div class="mb-3">
+    <input type="text" class="form-control" id="incomeSearch" placeholder="Search incomes">
+</div>
+
+<div class="table-responsive">
+    <table class="table table-striped align-middle shadow-sm rounded">
+    <tr class="table-dark">
+        <th>#</th>
+        <th>User Name</th>
+        <th>Income Category</th>
+        <th>Income Date</th>
+        <th>Notes</th>
+        <th class="text-right">Amount</th>
+    </tr>
+
+    @if (Model == null || !Model.Any())
+    {
+        <tr>
+            <td colspan="6" class="text-center text-danger">
+                <h6>There is no income for this group.</h6>
+            </td>
+        </tr>
+    }
+    else
+    {
+        int index = 1;
+        @foreach (var income in Model)
+        {
+            <tbody id="incomeTable">
+                <tr>
+                    <td>@index</td>
+                    <td>@income.UserName</td>
+                    <td>@income.CategoryName</td>
+                        <td class="date-column" data-date="@income.IncomeDate.ToString("yyyy-MM-dd")">
+                            @income.IncomeDate.ToString("dd MMM yyyy")
+                        </td>
+                    <td>@income.Notes</td>
+                    <td class="text-primary fw-bold text-right">@income.Amount.ToString("C", new CultureInfo("en-IN"))</td>
+                </tr>
+            </tbody>
+            index++;
+        }
+    }
+</table>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Search functionality
+            $("#incomeSearch").on("keyup", function () {
+                var value = $(this).val().toLowerCase().trim();
+                $("#incomeTable tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+                });
+            });
+
+            // Date Range Filtering
+            $("#filterBtn").click(function () {
+                var startDate = new Date($("#startDate").val());
+                var endDate = new Date($("#endDate").val());
+
+                // Check if both dates are selected
+                if (!$("#startDate").val() || !$("#endDate").val()) {
+                    alert("Please select both start and end dates.");
+                    return;
+                }
+
+                // Ensure Start Date is not greater than End Date
+                if (startDate > endDate) {
+                    alert("Start date cannot be greater than end date.");
+                    return;
+                }
+
+                // Apply Date Filter
+                $("#incomeTable tr").each(function () {
+                    var rowDateText = $(this).find(".date-column").data("date"); // Get data-date attribute
+                    if (!rowDateText) {
+                        $(this).hide();
+                        return;
+                    }
+
+                    var rowDate = new Date(rowDateText);
+
+                    if (rowDate >= startDate && rowDate <= endDate) {
+                        $(this).show();
+                    } else {
+                        $(this).hide();
+                    }
+                });
+            });
+
+            // Clear Filter & Show All Data
+            $("#clearFilterBtn").click(function () {
+                $("#startDate").val('');
+                $("#endDate").val('');
+                $("#incomeTable tr").show();
+            });
+        });
+    </script>
+}
